@@ -10,15 +10,19 @@ The research demonstrates the performance of Aggressive, Moderate, and Conservat
 ## Repository Structure  
 ```
 .
-├── Final Project Pipeline.ipynb     # Main Jupyter Notebook with full pipeline
-├── core_series.csv                  # Core time series data (USO + signal ETFs)
-├── equity_curves_5ETF.png           # Equity curves of Aggressive, Moderate, Conservative strategies
-├── after_fees_equity_5ETF.png       # Performance before/after hedge fund fees
-├── after_fees_metrics_5ETF.txt      # Performance summary table
-├── mc_sharpe_hist_5ETF.png          # Monte Carlo distribution of Sharpe ratios
-├── mc_drawdown_hist_5ETF.png        # Monte Carlo distribution of MaxDD
-├── mc_summary_5ETF.csv              # Monte Carlo output summary
-└── README.md                        # Project documentation
+├── Outputs/                            # Model outputs and performance files
+│   ├── after_fees_equity_5ETF.png      # Equity curves before and after hedge fund fees
+│   ├── after_fees_metrics_5ETF.txt     # Performance metrics summary (CAGR, Sharpe, MaxDD, etc.)
+│   ├── core_series.csv                 # Core input time series (USO + signal ETFs)
+│   ├── equity_curves_5ETF.png          # Equity curves for Aggressive, Moderate, Conservative strategies
+│   ├── mc_drawdown_hist_5ETF.png       # Monte Carlo distribution of maximum drawdowns
+│   ├── mc_sharpe_hist_5ETF.png         # Monte Carlo distribution of Sharpe ratios
+│   ├── mc_summary_5ETF.csv             # Monte Carlo summary statistics
+│
+├── Report/                             # Written report and supporting documentation
+│
+├── Final Project Pipeline.ipynb        # Main Jupyter Notebook with code pipeline
+├── README.md                           # Project documentation
 ```
 
 ---
