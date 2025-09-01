@@ -1,4 +1,0 @@
-Threshold: 0.6
-CAGR_after_fees: -26.1726%
-Sharpe_after_fees: -1.106
-MaxDD_after_fees: -95.41%
