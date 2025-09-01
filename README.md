@@ -28,7 +28,7 @@ The research demonstrates the performance of Aggressive, Moderate, and Conservat
 ---
 
 ## Data  
-Daily price data from 2015–2024 were downloaded from **Yahoo Finance** using the Python `yfinance` library.  
+Daily price data from 2015–2025 were downloaded from **Yahoo Finance** using the Python `yfinance` library.  
 
 - **Tradable instrument:** USO (United States Oil Fund, proxy for WTI crude oil)  
 - **Signal ETFs:**  
