@@ -64,20 +64,20 @@ Daily price data from 2015–2024 were downloaded from **Yahoo Finance** using t
 ## Results  
 
 - **Equity Curves**  
-![Equity Curves](equity_curves_5ETF.png)  
+![Equity Curves](Outputs/equity_curves_5ETF.png) 
 Aggressive shows the strongest growth but deepest drawdowns; Conservative sacrifices returns for stability.  
 
 - **After-Fee Performance**  
-![After Fees](after_fees_equity_5ETF.png)  
+![After Fees](Outputs/after_fees_equity_5ETF.png)  
 Under the 2/20 hedge fund fee structure, the strategy becomes unprofitable compared to SPY.  
 
 - **Monte Carlo Robustness**  
-![MC Drawdown](mc_drawdown_hist_5ETF.png)  
-![MC Sharpe](mc_sharpe_hist_5ETF.png)  
+![MC Drawdown](Outputs/mc_drawdown_hist_5ETF.png)  
+![MC Sharpe](Outputs/mc_sharpe_hist_5ETF.png)  
 Simulations show that most Sharpe ratios fall between 0.2–0.5 and drawdowns between –50% and –70%.  
 
 - **Performance Summary**  
-See [after_fees_metrics_5ETF.txt](after_fees_metrics_5ETF.txt) for details.  
+See [after_fees_metrics_5ETF.txt](Outputs/after_fees_metrics_5ETF.txt) for details.  
 After applying hedge fund fees, CAGR = –26.17%, Sharpe = –1.11, MaxDD = –95.41%.  
 
 ---
@@ -96,9 +96,7 @@ From a personal perspective, I would not recommend launching this as a hedge fun
 This project made use of **ChatGPT (OpenAI GPT-5)** for support in:  
 - Drafting the research report and README  
 - Refining Python scripts  
-- Generating presentation outlines and captions  
-
-All outputs were validated manually and cross-checked against empirical results.  
+  
 
 ---
 
